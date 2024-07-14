@@ -1,263 +1,214 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Cat Page</title>
-    <link href="style.css" rel="stylesheet">
-    <link rel="icon" href="acm.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        * {
-            box-sizing: border-box
-        }
+<html lang="en">
+    <head>
+        <title>Patsy Doherty - About</title>
 
-        body {
-            font-family: Verdana, sans-serif;
-           
-        }
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Boostrap Core CSS-->
+        <link rel="stylesheet" href="css/bootstrap.min.css"> 
+        
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- Animate CSS -->
+        <link href="css/animate.css" rel="stylesheet">
+        
+        <!-- Google fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Qwigley" >
+        <!-- Font awesome -->
+        <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-        .mySlides {
-            display: none
-        }
+   </head>
+   <body>
+   
+   <!-- Start wrapper -->
+   <div class="wrapper">
+  	  <div class="col-md-12">
+         <!-- Logo -->
+         <div class="brand wow fadeIn" data-wow-delay="0.1s"> Patsy Doherty
+           <div class="title"> - hat designer -  </div>
+         </div>
 
-        /* Slideshow container */
-        .slideshow-container {
-            max-width: 1000px;
-            position: relative;
-            margin: auto;
-        }
-
-        /* Next & previous buttons */
-        .prev, .next {
-            cursor: pointer;
-            position: absolute;
-            top: 50%;
-            width: auto;
-            padding: 16px;
-            margin-top: -22px;
-            color: white;
-            font-weight: bold;
-            font-size: 18px;
-            transition: 0.6s ease;
-            border-radius: 0 3px 3px 0;
-            user-select: none;
-        }
-
-        /* Position the "next button" to the right */
-        .next {
-            right: 0;
-            border-radius: 3px 0 0 3px;
-        }
-
-            /* On hover, add a black background color with a little bit see-through */
-            .prev:hover, .next:hover {
-                background-color: rgba(0,0,0,0.8);
-            }
-
-        /* Caption text */
-        .textSlide {
-            color: #f2f2f2;
-            font-size: 40px;
-            padding: 8px 12px;
-            text-align:center;
-            bottom: 8px;
-            width: 100%;
-            text-align: center;
-        }
-
-        /* Number text (1/3 etc) */
-        .numbertext {
-            color: #f2f2f2;
-            font-size: 12px;
-            padding: 8px 12px;
-            position: absolute;
-            top: 0;
-        }
-
-        /* The dots/bullets/indicators */
-        .dot {
-            cursor: pointer;
-            height: 15px;
-            width: 15px;
-            margin: 0 2px;
-            background-color: #bbb;
-            border-radius: 50%;
-            display: inline-block;
-            transition: background-color 0.6s ease;
-        }
-
-            .active, .dot:hover {
-                background-color: #717171;
-            }
-
-        /* Fading animation */
-        .fade {
-            animation-name: fade;
-            animation-duration: 1.5s;
-        }
-
-        @keyframes fade {
-            from {
-                opacity: .4
-            }
-
-            to {
-                opacity: 1
-            }
-        }
-
-        /* On smaller screens, decrease text size */
-        @media only screen and (max-width: 300px) {
-            .prev, .next {
-                font-size: 11px
-            }
-        }
-    </style>
-</head>
-
-<body>
-    <br />
-    <br />
-    <div class="w3-top">
-        <div class="w3-row w3-padding w3-black">
-            <div class="w3-col s3">
-                <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+         <!-- Navigation -->
+         <nav class="navbar navbar-default" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <div class="navbar-brand"><a href="#">Patsy Doherty</a>
+                <div class="title"> - hat designer - </div>
+                </div>
+                 
             </div>
-            <div class="w3-col s3">
-                <a href="contact.html" class="w3-button w3-block w3-black">WORDLE</a>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="index.html">Home1</a>
+                            </li>
+                            <li>
+                                <a href="index-work.html">Home2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                       <a href="about.html">About</a>
+                    </li>
+                    <li>
+                       <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                       <a href="collection.html">Collection</a>
+                    </li>
+                    <li>
+                       <a  href="resume.html">Resume</a>
+                    </li>
+                    <li>
+                       <a href="news.html">News</a>
+                    </li>
+                    <li>
+                       <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <div class="w3-col s3">
-                <a href="about.html" class="w3-button w3-block w3-black">CATS</a>
-            </div>
-            <div class="w3-col s3">
-                <a href="https://uah.acm.org/" class="w3-button w3-block w3-black">ACM</a>
-            </div>
-        </div>
-    </div>
+            <!-- /navbar-collapse -->
+         </nav>
+         <!-- End nav -->
 
-    <h1><strong>This is the cat appreciation page.</strong></h1>
-    <hr />
 
-    <p>Click the dots to look at all of the images.</p>
-    <div class="slideshow-container">
+         <!-- Start margin -->
+         <div class="margin-about">
+             <!-- Start left column -->
+             <div class="box-about col-md-4 col-xs-offset-1">
+               <h3 class="heading-inner">About</h3>
+                  <div class="hr"></div>
+                    <h4>
+                    <span class="text-about">Some hats can only be worn</span> if you're willing to be jaunty, to set them at an angle and to walk beneath them with a spring in your stride as if you're only a step away from dancing. They demand a lot of you.
+                    </h4>
+                    
+                    <h4>
+                    <span class="text-about"> The right hat may also enliven our</span> imagination of the past...an old-fashioned cloche, a picture hat, or a toque trimmed with a pouf of polka-dotted veiling is just enough to make us feel as if we were living in another, romantic age.
+                    </h4>
+                    
+                    <h4>
+                    <span class="text-about">Some hats can only be worn</span> if you're willing to be jaunty, to set them at an angle and to walk beneath them with a spring in your stride as if you're only a step away from dancing. They demand a lot of you.</h4>
+                    <h4>
+                    <span class="text-about">Wearing hats has become like fine art.</span></h4>               
+                   
+             </div>
+             <!-- End left column -->
+             
+             <!-- Start right image -->
+             <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
+               <img src="img/about1.jpg" alt="" class="photo-about"/> 
+             </div>
+             <!-- End right image -->
+         </div>
+         <!-- End margin -->
+         
+         <div class="col-md-12">
+         </div>
+         
+         
+         <!-- Start margin -->
+         <div class="margin-about">
+         <!-- Start right image -->
+             <div class="col-md-6 wow fadeIn col-md-offset-1" data-wow-delay="0.1s">
+               <img src="img/about.jpg" alt="" class="photo-about"/> 
+             </div>
+             <!-- End right image -->
+             <!-- Start left column -->
+             <div class="box-about col-md-4">
+               <h3 class="heading-inner">My process</h3>
+                  <div class="hr"></div>
+                    <div class="media">
+                   <div class="pull-left">
+                       <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+                       </span> 
+                   </div>
+                   <div class="media-body">
+                       <h4 class="media-heading">Process 1</h4>
+                       <p>SOME HATS CAN ONLY BE WORN if you're willing to be jaunty, to set them at an angle and to walk beneath them with a spring. </p>
+                   </div>
+               </div>
+               <div class="media">
+                   <div class="pull-left">
+                       <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-lightbulb-o fa-stack-1x fa-inverse"></i>
+                       </span> 
+                   </div>
+                   <div class="media-body">
+                       <h4 class="media-heading">Process 2</h4>
+                       <p>SOME HATS CAN ONLY BE WORN if you're willing to be jaunty, to set them at an angle and to walk beneath them with a spring. </p>
+                   </div>
+               </div>
+               <div class="media">
+                   <div class="pull-left">
+                       <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-anchor fa-stack-1x fa-inverse"></i>
+                       </span> 
+                   </div>
+                   <div class="media-body">
+                       <h4 class="media-heading">Process 3</h4>
+                      <p>SOME HATS CAN ONLY BE WORN if you're willing to be jaunty, to set them at an angle and to walk beneath them with a spring. </p>
+                   </div>
+              </div>
+                               
+             </div>
+             <!-- End left column -->
+             
+             
+         </div>
+         <!-- End margin -->
+         
 
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 5</div>
-            <img src="bingus1.png" style="width:50%">
-            <div class="captext">Bingus.</div>
-        </div>
+         <!-- Start footer -->
+         <div class="footer col-md-6 col-xs-offset-3">
+              <h5>Copyright 2016
+              <a href="#"><i class="fa fa-facebook fa-1x icon1"></i></a>
+              <a href="#"><i class="fa fa-twitter fa-1x icon1"></i></a>
+              <a href="#"><i class="fa fa-instagram fa-1x icon1"></i></a>
+              </h5>
+         </div>
+         <!-- End footer -->
 
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 5</div>
-            <img src="bingus2.png" style="width:50%">
-            <div class="captext">Also Bingus.</div>
-        </div>
+      </div>
+      <!-- End col-md-12 -->
 
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 5</div>
-            <img src="bingus3.png" style="width:50%">
-            <div class="captext">Bingus as well.</div>
-        </div>
+   </div>
+   <!-- End wrapper -->
 
-        <div class="mySlides fade">
-            <div class="numbertext">4/ 5</div>
-            <img src="grumpy1.png" style="width:50%">
-            <div class="captext">Additionally, Bingus.</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">4/ 5</div>
-            <img src="max1.png" style="width:50%">
-            <div class="captext">Bingus?</div>
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)"></a>
-        <a class="next" onclick="plusSlides(1)"></a>
-
-    </div>
-    <br>
+      
+   <!-- jQuery Version 1.11.0 -->
+   <script src="js/jquery-1.11.0.js"></script>
+   <!-- Boostrap JS -->
+   <script src="js/bootstrap.min.js"></script>
+   <!-- Smooth scroll JS -->
+   <script src="js/smoothscroll.js"></script>
+   
+   <!-- Wow JavaScript -->
+   <script src="js/wow.js"></script>
+    
     <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        }
+    new WOW().init();
     </script>
 
 
-    <br />
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-    </div>
-
-   
-    <br />
-    <hr />
-    <br />
-    <div class="w3-row" id="myGrid" style="margin-bottom:128px">
-        <div class="w3-third">
-            <img src="bingus4.png" width="500" height="500">
-            <img src="bingus6.gif" width="500" height="500">
-            <img src="bingus5.png" width="500" height="500">
-
-        </div>
-
-        <div class="w3-third">
-            <img src="orient1.png" width="500" height="500">
-            <img src="jinx1.png" width="500" height="500">
-            <img src="jambo1.png" width="500" height="500">
-        </div>
-
-        <div class="w3-third">
-            <img src="keyboard1.png" width="500" height="500">
-            <img src="yell1.png" width="500" height="500">
-            <img src="max2.png" width="500" height="500">
-        </div>
-    </div>
-
-    <hr />
-    <br />
-
-    <video width="720" height="480" controls>
-        <source src="catvideo.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-    </video>
-
-    <br />
-    <p>You made it to the end! Here's a long crewmate:</p>
-    <br />
-    <!-- Put a picture here -->
-    <img src="amongUsLong.png"
-         alt="Long crewmate goes here." />
-
-    <br />
-    <br />
-    <button class="button" onclick="location.href = 'https://uah.acm.org/';">Back to ACM</button>
-    <br />
-    <br />
 </body>
 </html>
